@@ -1,0 +1,99 @@
+/* الخلفية */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #0d0d1f, #111133);
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+}
+
+/* الهيدر */
+.hero {
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: #00eaff;
+}
+
+.hero p {
+  font-size: 22px;
+  opacity: .8;
+}
+
+/* البوكس ديال الرفع */
+.upload-box {
+  background: #1a1a2e;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 16px;
+  border: 1px solid #00eaff44;
+}
+
+/* الأزرار */
+.btn {
+  padding: 14px 26px;
+  background: #00c3ff;
+  color: black;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #00eaff;
+  transform: scale(1.05);
+}
+
+/* الكاردز */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #141428;
+  padding: 20px;
+  border-radius: 14px;
+  width: 130px;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid #00e6ff33;
+  transition: .3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: #00e6ff;
+}
+
+/* الفوتر */
+footer {
+  padding: 20px;
+  margin-top: 30px;
+  opacity: .6;
+}
+
+/* الأنيميشن */
+.fade {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
