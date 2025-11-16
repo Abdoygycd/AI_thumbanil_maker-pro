@@ -131,3 +131,14 @@ footer {
 body {
   font-family: 'Poppins', sans-serif;
 }
+:root {
+  --primary: #6C63FF;
+  --secondary: #4ECDC4;
+  --dark: #1A1A2E;
+  --light: #F7F7F7;
+}
+
+body {
+  background: linear-gradient(135deg, var(--dark), #0F0F1E);
+  color: white;
+}
